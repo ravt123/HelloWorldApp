@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="helloworldFlow" doc:id="67f60543-5052-440e-9bd1-b60489510b31" >
 		<http:listener doc:name="Listener" doc:id="5a50b2ab-a60f-4fd4-95d3-237355eaf8d1" config-ref="HTTP_Listener_config" path="/helloworld"/>
-		<logger level="INFO" doc:name="Logger" doc:id="d8c6d249-68ed-4c69-af8c-b083c218459c" message="'First Project Hello World'"/>
+		<logger level="INFO" doc:name="Logger" doc:id="d8c6d249-68ed-4c69-af8c-b083c218459c" message="'First Project Hello World Git Check In '"/>
 	</flow>
 </mule>
