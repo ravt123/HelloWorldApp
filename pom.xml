@@ -31,20 +31,21 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-				      <uri>https://anypoint.mulesoft.com</uri>
-				      <muleVersion>4.4.0</muleVersion>
-				      <username>kaki_mule</username>
-				      <password>Saket!2345</password>
-				      <applicationName>helloworlddeploy</applicationName>
-				      <environment>Sandbox</environment>
-				      <region>us-east-2</region>
-				      <workers>1</workers>
-				      <workerType>MICRO</workerType>
-				      <objectStoreV2>true</objectStoreV2>
-				      <properties>
-				        <key>value</key>
-				      </properties>
-				    </cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>4.4.0</muleVersion>
+						<username>tumuluri_muleaccount</username>
+						<password>SaketKarthik!2345</password>
+						<applicationName>helloworlddeploy</applicationName>
+						<environment>Sandbox</environment>
+						<region>us-east-2</region>
+						<workers>1</workers>
+						<workerType>MICRO</workerType>
+						<objectStoreV2>true</objectStoreV2>
+						<properties>
+							<key>value</key>
+						</properties>
+					</cloudHubDeployment>
+					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
 		</plugins>
